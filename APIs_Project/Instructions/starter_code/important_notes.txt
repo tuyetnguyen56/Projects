@@ -1,0 +1,17 @@
+important notes:
+
+-https://openweathermap.org/current to find base url 
+
+-make sure to install in terminal where your folder is located
+pip install openweathermapy
+
+
+# Paramaters for query URL
+url = "http://api.openweathermap.org/data/2.5/weather?"
+units = "imperial"
+key = api_key
+
+# Build partial query URL - without city
+query_url = url + "appid=" + api_key + "&units=" + units + "&q="
+
+#Use Matplotlib homework if need help with scatter plots
